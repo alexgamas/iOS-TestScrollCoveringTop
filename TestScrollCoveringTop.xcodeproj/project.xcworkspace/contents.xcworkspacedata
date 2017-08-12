@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TestePortfolio.xcodeproj">
+      location = "self:/Users/alex/ambiente/solutis/ios/TestePortfolio/TestScrollCoveringTop.xcodeproj">
    </FileRef>
 </Workspace>

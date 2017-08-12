@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tabela: UITableView!
+    
+    @IBOutlet weak var topo: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        tabela.delegate = self
+        tabela.dataSource = self
     }
 
     override func didReceiveMemoryWarning() {
